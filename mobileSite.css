@@ -1,0 +1,120 @@
+@media screen and (min-width:1113px) and (max-width: 1290px) {
+	header, main, section, .sectionNumThree, .fourSection, .fiveSection, .sixSection, .sevenSection, .imageLayer{
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+}
+
+@media screen and (min-width:991px) and (max-width: 1112px) {
+	header, main, section, .sectionNumThree, .fourSection, .fiveSection, .sixSection, .sevenSection, .imageLayer{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+}
+
+@media screen and (min-width:616px) and (max-width: 990px) {
+	header, main, section, .sectionNumThree, .fourSection, .fiveSection, .sixSection, .sevenSection, .imageLayer{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+
+	.imagePhone, .roundPhoto{
+		display: none;
+	}
+
+	.cartaImg{
+		margin-right: -700px;
+	}
+
+	.carta{
+		width: 70%;
+	}
+
+	.subscription{
+		width: 100%;
+	}
+
+	.modalContent{
+		width: 50%;
+		margin: 20% auto;
+	}
+}
+
+@media screen and (max-width: 615px){
+	header, main, section, .sectionNumThree, .fourSection, .fiveSection, .sixSection, .sevenSection, .imageLayer{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.main-background{
+		background-size: cover;
+	}
+
+	.menu{
+		position: absolute;
+		padding-top: 30px;
+		margin: 0;
+		margin-top: 8px;
+		
+	}
+
+	li{
+		padding: 5px 10px 5px 10px;
+	}
+
+	h4{
+		font-size: 15px;
+	}
+
+	.number{
+		float: right;
+	}
+
+	.modalContent{
+		width: 80%;
+	}
+
+	figure{
+		width: 100%;
+	}
+
+	.fig1, .fig2{
+		width: 100%;
+	}
+
+	blockquote{
+		width: 100%;
+	}
+
+	.imagePhone, .roundPhoto{
+		display: none;
+	}
+
+	.cartaImg{
+		display: none;
+	}
+
+	.carta{
+		width: 100%;
+	}
+
+	.subscription{
+		width: 100%;
+		display: block;
+	}
+
+	.subscrip{
+		width: 90%;
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	#subscripOne{
+		border: none;
+		/*border-bottom: 1px solid grey;*/
+	}
+
+	#subscripeTwo{
+	border-left: none;
+}
+}
